@@ -127,7 +127,7 @@ WHERE address = '인천시';   # 주소가 인천시인 사람들의 정보만 �
 - `SELECT` 구문도 테이블이라는 입력을 `FROM` 구로 받아 특정 출력을 리턴한다는 점에서 같은 방식으로 작동한다.
     - 이때, 입력이 되는 테이블에는 변경이 일어나지 않기 때문에 `SELECT` 구문은 **일종의 읽기 전용 함수**라고 말할 수 있다.
         
-        (이미지)
+        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/dc805bdb-ff59-4dd2-9416-9b8fa9c8b78f/b43344f1-c049-491e-864a-53c90f917e69/Untitled.jpeg)
         
 - 일반적인 절차 지향형 언어의 함수는 매개변수와 리턴값의 자료형이 정수 자료형 또는 문자열 자료형처럼 결정되어 있다.
     - `SELECT`도 자료형이 결정되어 있는데, 출력 자료형은 바로 테이블이다.
@@ -140,7 +140,7 @@ WHERE address = '인천시';   # 주소가 인천시인 사람들의 정보만 �
 - ‘테이블을 홀 케이크처럼 다룬다’라고 할 수 있다.
     - 칼이라는 도구를 사용해 케이크를 자르고 많은 사람이 나눠먹는 것이 일반적인데, `GROUP BY`구는 이 케이크를 자르는 칼과 같은 역할을 한다.
         
-        (이미지)
+        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/dc805bdb-ff59-4dd2-9416-9b8fa9c8b78f/cff30d7c-362c-4114-8aee-8f8f3cec40c6/Untitled.jpeg)
         
 
 ### 그룹을 나누었을 때의 장점
